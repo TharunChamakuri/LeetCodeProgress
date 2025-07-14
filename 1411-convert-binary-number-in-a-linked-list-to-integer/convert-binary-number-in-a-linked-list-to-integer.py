@@ -8,7 +8,7 @@ class Solution(object):
         result = 0
         curr = head
         while curr:
-            result = result << 1 | curr.val
+            result = result *2 + curr.val
             curr = curr.next
         return result
         
