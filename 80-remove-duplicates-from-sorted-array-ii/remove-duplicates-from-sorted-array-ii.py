@@ -1,5 +1,5 @@
-class Solution(object):
-    def removeDuplicates(self, nums):
+class Solution:
+    def removeDuplicates(self, nums: List[int]) -> int:
         l , r = 0 , 0
         while r < len(nums):
             count = 1
